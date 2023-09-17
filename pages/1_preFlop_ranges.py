@@ -29,8 +29,6 @@ with open("rangeMaster.json", "r") as f:
     rangeMaster = json.load(f)
     
 
-
-
 ranges = {
 'LJ':['2X_vsBB','4X_vsHJ','4X_vsCO','4X_vsBN','4X_vsSB','4X_vsBB'],
 'HJ':['2X_vsBB','3X_vsLJ','4X_vsCO','4X_vsBN','4X_vsSB','4X_vsBB','5X_vsLJ'],
